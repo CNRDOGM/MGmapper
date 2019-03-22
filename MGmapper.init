@@ -1,0 +1,12 @@
+export MGmap_HOME=/mnt/disk1/bin/mgmapper
+export MGmap_MAIN_DB=/mnt/disk1/bin/mgmapper/db
+export MGmap_PYTHON=/home/ogmadmin/bin/miniconda2/bin/python
+export MGmap_BWA=/home/ogmadmin/bin/miniconda2/bin/bwa
+export MGmap_SAMTOOLS=/mnt/disk1/bin/samtools_mgmapper/samtools-1.6/samtools
+export MGmap_BEDTOOLS=/home/ogmadmin/bin/miniconda2/bin/bedtools
+export MGmap_PIGZ=/usr/bin/pigz
+export MGmap_CUTADAPT=/home/ogmadmin/bin/miniconda2/bin/cutadapt
+export MGmap_MAKEBLASTDB=/home/ogmadmin/bin/miniconda2/bin/makeblastdb
+export MGmap_BLASTDBCMD=/home/ogmadmin/bin/miniconda2/bin/blastdbcmd
+
+export PATH=$MGmap_HOME:$PATH

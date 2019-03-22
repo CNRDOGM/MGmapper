@@ -1,0 +1,11 @@
+# Databases to be use with the MGmapper programs.
+# Column 1: Full path to database - exclude suffix names to a database
+# Column 2: Name of database to be used in output - can be any name you want. Names in column 2 must be unique.
+# Column 3- optional description of the database e.g. date of creation, number of fasta entries, size  and other remarks
+# The 3 columns are white space separated.
+# The first database phiX174 must be present in the first line - it will not show up when running MGmapper_PE.pl -h or MGmapper_SE.pl -h
+# The phiX174 database will be used as first step to clean reads for potential positive control reads
+#
+/mnt/disk1/bin/mgmapper/db/phiX174/phiX174 phiX174	
+/mnt/disk1/bin/mgmapper/db/bacteria/bacteria Bacteria
+/mnt/disk1/bin/mgmapper/db/plasmid/plasmid Plasmids
